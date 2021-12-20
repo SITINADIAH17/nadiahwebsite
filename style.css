@@ -1,0 +1,180 @@
+body{
+margin:0;
+padding:0;
+font-family:poppins;
+background-color: Wheat;
+}
+a{
+font-size:12px;
+text-transform:uppercase;
+}
+.nav-area{
+background:#DEB887;
+}
+.nav-area:after{
+content:'';
+clear:both;
+display:block;
+}
+.nav-area ul{
+list-style:none;
+margin:0;
+}
+.nav-area > ul > li{
+float:left;
+position:relative;
+}
+.nav-area ul li a{
+text-decoration:none;
+color:#fff;
+padding:15px 20px;
+display:block;
+}
+.nav-area ul li:hover a{
+background:#DEB887;
+}
+.nav-area ul ul{
+position:absolute;
+padding:0;
+min-width:160px;
+display:none;
+top:100%;
+left:0;
+}
+.nav-area ul li:hover > ul{
+display:block;
+}
+.nav-area ul ul li:hover a{
+background:#DEB887;
+}
+.nav-area ul ul li{
+position:relative;
+}
+.nav-area ul ul ul{
+top:0;
+left:100%;
+}
+.dropdown{
+position:absolute;
+top:100;
+left:0;
+width:100%;
+padding:0;
+}<head>
+<style>
+}
+
+li a {
+  display: inline-block;
+  color: azure;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-style: oblique
+}
+}
+
+p {
+  text-align: center;
+}
+
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  text-align:center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+body
+{background-color:Wheat}
+    table{text-align: justify;
+    color: midnightblue;
+    border: thick;
+    border: DarkBrown;
+    font-family:'verdana';
+}
+h1 { 
+  text-align: center;
+  text-shadow: 3px 3px 5px Brown;
+  color: snow;
+  font-family:'verdana';
+}
+h2 { 
+  color: Darkbrown;
+  font-family:'verdana';
+  font-weight: thick;
+  text-align: center;
+}
+h3 { 
+  color: Darkbrown;
+  font-family:'timesnewroman';
+  font-weight: lighter;
+  text-align: center;
+
+
+<body>
+<body bgcolor= "Wheat">
+<br>
+  <div class="navbar">
+   <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="Biodata.html">Biodata</a></li>
+    <li><a href="Experience.html">Experience</a></li>
+    <li><a href="Education.html">Education</a></li>
+    <li><a href="Family.html">Family</a></li>
+    <li><a href="Friends.html">Friends</a></li>
+    <li><a href="Gallery.html">Gallery</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+   </ul>
+
